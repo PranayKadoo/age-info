@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding:0%
+}
+form{
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1.5rem 1rem 1.5rem 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+    width: 40%;
+    text-align: start;
+}
+.input__name{
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 6rem 7rem;
+}
+.input__name label{
+    grid-column: 1/2;
+}
+.input__name input{
+    grid-column: 2/3;
+    width:300px
+}
+.input__age{
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 6rem 7rem;
+}
+.input__age label{
+   grid-column: 1/2;
+}
+.input__age input{
+    grid-column: 2/3;
+    width:300px;
+}
+form button{
+    grid-row: 5/6;
+    background-color: rgb(42, 248, 135);
+    border-radius: 10px;
+    color:black;
+}
